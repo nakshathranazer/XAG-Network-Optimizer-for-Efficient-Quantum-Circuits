@@ -2,7 +2,7 @@
 
 ## EPFL logic synthesis libraries
 The  libraries and several examples on how to use and integrate the libraries can be found in the [logic synthesis tool showcase](https://github.com/lsils/lstools-showcase).
-## XAG Network Optimiser Project
+## XAG Network Optimiser 
 mkdir build
 
 cd build
