@@ -10,4 +10,4 @@ cmake -DCMAKE_CXX_COMPILER=g++-10 -DMOCKTURTLE_EXAMPLES=ON -DMOCKTURTLE_EXPERIME
 
 make
 
-./experiments/exacc
+./experiments/xag_optimizer
