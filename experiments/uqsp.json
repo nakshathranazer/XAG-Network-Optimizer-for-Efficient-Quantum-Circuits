@@ -1,0 +1,39 @@
+[
+  {
+    "entries": [
+      {
+        "benchmarks": "(17,8)-cyclic state",
+        "esop-RR: cnots": 542,
+        "esop-RR: sqgs": 543,
+        "esop-RR: time": 0.44082425,
+        "total func": 1,
+        "unqique func": 1
+      },
+      {
+        "benchmarks": "(17,9)-cyclic state",
+        "esop-RR: cnots": 542,
+        "esop-RR: sqgs": 511,
+        "esop-RR: time": 0.437482058,
+        "total func": 1,
+        "unqique func": 1
+      },
+      {
+        "benchmarks": "(19,8)-cyclic state",
+        "esop-RR: cnots": 1058,
+        "esop-RR: sqgs": 1059,
+        "esop-RR: time": 3.33933819,
+        "total func": 1,
+        "unqique func": 1
+      },
+      {
+        "benchmarks": "(19,9)-cyclic state",
+        "esop-RR: cnots": 1058,
+        "esop-RR: sqgs": 1059,
+        "esop-RR: time": 1.284669166,
+        "total func": 1,
+        "unqique func": 1
+      }
+    ],
+    "version": "##GITHUB##"
+  }
+]

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/CMakeFiles/z3-populate"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/CMakeFiles/z3-populate.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/CMakeFiles/z3-populate-complete.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/z3-populate-prefix/src/z3-populate-stamp/z3-populate-install.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/z3-populate-prefix/src/z3-populate-stamp/z3-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/z3-populate-prefix/src/z3-populate-stamp/z3-populate-download.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/z3-populate-prefix/src/z3-populate-stamp/z3-populate-update.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/z3-populate-prefix/src/z3-populate-stamp/z3-populate-patch.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/z3-populate-prefix/src/z3-populate-stamp/z3-populate-configure.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/z3-populate-prefix/src/z3-populate-stamp/z3-populate-build.rule"
+		},
+		{
+			"file" : "/home/msi/mockturtle-master/include/_deps/z3-subbuild/z3-populate-prefix/src/z3-populate-stamp/z3-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"z3-populate"
+		],
+		"name" : "z3-populate"
+	}
+}

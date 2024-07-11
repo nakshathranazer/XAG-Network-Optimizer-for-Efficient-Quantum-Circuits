@@ -1,0 +1,148 @@
+Performing C++ SOURCE FILE Test HAS_WNO_gnu-anonymous-struct failed with the following output:
+Change Dir: /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2bbe4/fast && /usr/bin/make -f CMakeFiles/cmTC_2bbe4.dir/build.make CMakeFiles/cmTC_2bbe4.dir/build
+make[1]: Entering directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2bbe4.dir/src.cxx.o
+/usr/bin/g++-9    -DHAS_WNO_gnu-anonymous-struct   -Wno-gnu-anonymous-struct -std=gnu++17 -o CMakeFiles/cmTC_2bbe4.dir/src.cxx.o -c /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-gnu-anonymous-struct'
+Linking CXX executable cmTC_2bbe4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bbe4.dir/link.txt --verbose=1
+/usr/bin/g++-9   -DHAS_WNO_gnu-anonymous-struct    CMakeFiles/cmTC_2bbe4.dir/src.cxx.o  -o cmTC_2bbe4 
+make[1]: Leaving directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WNO_nested-anon-types failed with the following output:
+Change Dir: /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49569/fast && /usr/bin/make -f CMakeFiles/cmTC_49569.dir/build.make CMakeFiles/cmTC_49569.dir/build
+make[1]: Entering directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49569.dir/src.cxx.o
+/usr/bin/g++-9    -DHAS_WNO_nested-anon-types   -Wno-nested-anon-types -std=gnu++17 -o CMakeFiles/cmTC_49569.dir/src.cxx.o -c /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-nested-anon-types'
+Linking CXX executable cmTC_49569
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49569.dir/link.txt --verbose=1
+/usr/bin/g++-9   -DHAS_WNO_nested-anon-types    CMakeFiles/cmTC_49569.dir/src.cxx.o  -o cmTC_49569 
+make[1]: Leaving directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa72b/fast && /usr/bin/make -f CMakeFiles/cmTC_aa72b.dir/build.make CMakeFiles/cmTC_aa72b.dir/build
+make[1]: Entering directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa72b.dir/src.cxx.o
+/usr/bin/g++-9    -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu++17 -o CMakeFiles/cmTC_aa72b.dir/src.cxx.o -c /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa72b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa72b.dir/link.txt --verbose=1
+/usr/bin/g++-9   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_aa72b.dir/src.cxx.o  -o cmTC_aa72b 
+/usr/bin/ld: CMakeFiles/cmTC_aa72b.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_aa72b.dir/build.make:87: cmTC_aa72b] Error 1
+make[1]: Leaving directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_aa72b/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAS_WNO_gnu-anonymous-struct failed with the following output:
+Change Dir: /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34dfc/fast && /usr/bin/make -f CMakeFiles/cmTC_34dfc.dir/build.make CMakeFiles/cmTC_34dfc.dir/build
+make[1]: Entering directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34dfc.dir/src.cxx.o
+/usr/bin/g++-9    -DHAS_WNO_gnu-anonymous-struct   -Wno-gnu-anonymous-struct -std=gnu++17 -o CMakeFiles/cmTC_34dfc.dir/src.cxx.o -c /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-gnu-anonymous-struct'
+Linking CXX executable cmTC_34dfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34dfc.dir/link.txt --verbose=1
+/usr/bin/g++-9   -DHAS_WNO_gnu-anonymous-struct    CMakeFiles/cmTC_34dfc.dir/src.cxx.o  -o cmTC_34dfc 
+make[1]: Leaving directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WNO_nested-anon-types failed with the following output:
+Change Dir: /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2d1d1/fast && /usr/bin/make -f CMakeFiles/cmTC_2d1d1.dir/build.make CMakeFiles/cmTC_2d1d1.dir/build
+make[1]: Entering directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d1d1.dir/src.cxx.o
+/usr/bin/g++-9    -DHAS_WNO_nested-anon-types   -Wno-nested-anon-types -std=gnu++17 -o CMakeFiles/cmTC_2d1d1.dir/src.cxx.o -c /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-nested-anon-types'
+Linking CXX executable cmTC_2d1d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d1d1.dir/link.txt --verbose=1
+/usr/bin/g++-9   -DHAS_WNO_nested-anon-types    CMakeFiles/cmTC_2d1d1.dir/src.cxx.o  -o cmTC_2d1d1 
+make[1]: Leaving directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b203/fast && /usr/bin/make -f CMakeFiles/cmTC_0b203.dir/build.make CMakeFiles/cmTC_0b203.dir/build
+make[1]: Entering directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0b203.dir/src.cxx.o
+/usr/bin/g++-9    -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu++17 -o CMakeFiles/cmTC_0b203.dir/src.cxx.o -c /home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0b203
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b203.dir/link.txt --verbose=1
+/usr/bin/g++-9   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_0b203.dir/src.cxx.o  -o cmTC_0b203 
+/usr/bin/ld: CMakeFiles/cmTC_0b203.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0b203.dir/build.make:87: cmTC_0b203] Error 1
+make[1]: Leaving directory '/home/msi/mockturtle-master/include/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0b203/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

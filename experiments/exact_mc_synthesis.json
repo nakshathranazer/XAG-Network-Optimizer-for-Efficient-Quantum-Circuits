@@ -1,0 +1,13 @@
+[
+  {
+    "entries": [
+      {
+        "AND gates": 0,
+        "XOR gates": 0,
+        "name": "practical6-multiple-xor-resyn",
+        "total runtime": 1.738676239
+      }
+    ],
+    "version": "##GITHUB##"
+  }
+]

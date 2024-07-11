@@ -1,0 +1,167 @@
+[
+  {
+    "entries": [
+      {
+        "benchmark": "adder",
+        "edges": 1068,
+        "equivalent": false,
+        "lut_depth": 51,
+        "luts": 254,
+        "runtime": 0.014513687
+      },
+      {
+        "benchmark": "bar",
+        "edges": 2688,
+        "equivalent": false,
+        "lut_depth": 4,
+        "luts": 512,
+        "runtime": 0.037134033
+      },
+      {
+        "benchmark": "div",
+        "edges": 84493,
+        "equivalent": false,
+        "lut_depth": 864,
+        "luts": 19650,
+        "runtime": 1.570711114
+      },
+      {
+        "benchmark": "hyp",
+        "edges": 203555,
+        "equivalent": true,
+        "lut_depth": 4195,
+        "luts": 42245,
+        "runtime": 5.572152074
+      },
+      {
+        "benchmark": "log2",
+        "edges": 36361,
+        "equivalent": false,
+        "lut_depth": 77,
+        "luts": 7957,
+        "runtime": 0.974294681
+      },
+      {
+        "benchmark": "max",
+        "edges": 3575,
+        "equivalent": false,
+        "lut_depth": 56,
+        "luts": 805,
+        "runtime": 0.061489935
+      },
+      {
+        "benchmark": "multiplier",
+        "edges": 30751,
+        "equivalent": false,
+        "lut_depth": 53,
+        "luts": 6163,
+        "runtime": 0.776365118
+      },
+      {
+        "benchmark": "sin",
+        "edges": 6877,
+        "equivalent": false,
+        "lut_depth": 42,
+        "luts": 1391,
+        "runtime": 0.162660393
+      },
+      {
+        "benchmark": "sqrt",
+        "edges": 25745,
+        "equivalent": false,
+        "lut_depth": 1033,
+        "luts": 5052,
+        "runtime": 0.662851476
+      },
+      {
+        "benchmark": "square",
+        "edges": 17169,
+        "equivalent": false,
+        "lut_depth": 50,
+        "luts": 3505,
+        "runtime": 0.522431801
+      },
+      {
+        "benchmark": "arbiter",
+        "edges": 15137,
+        "equivalent": false,
+        "lut_depth": 18,
+        "luts": 2722,
+        "runtime": 0.155705622
+      },
+      {
+        "benchmark": "cavlc",
+        "edges": 633,
+        "equivalent": false,
+        "lut_depth": 4,
+        "luts": 120,
+        "runtime": 0.008104293
+      },
+      {
+        "benchmark": "ctrl",
+        "edges": 136,
+        "equivalent": false,
+        "lut_depth": 2,
+        "luts": 28,
+        "runtime": 0.002106104
+      },
+      {
+        "benchmark": "dec",
+        "edges": 1344,
+        "equivalent": false,
+        "lut_depth": 2,
+        "luts": 272,
+        "runtime": 0.002847566
+      },
+      {
+        "benchmark": "i2c",
+        "edges": 1741,
+        "equivalent": false,
+        "lut_depth": 4,
+        "luts": 358,
+        "runtime": 0.017571224
+      },
+      {
+        "benchmark": "int2float",
+        "edges": 256,
+        "equivalent": false,
+        "lut_depth": 3,
+        "luts": 49,
+        "runtime": 0.00209104
+      },
+      {
+        "benchmark": "mem_ctrl",
+        "edges": 57663,
+        "equivalent": false,
+        "lut_depth": 25,
+        "luts": 12155,
+        "runtime": 0.983456442
+      },
+      {
+        "benchmark": "priority",
+        "edges": 1056,
+        "equivalent": false,
+        "lut_depth": 31,
+        "luts": 245,
+        "runtime": 0.013659493
+      },
+      {
+        "benchmark": "router",
+        "edges": 315,
+        "equivalent": false,
+        "lut_depth": 11,
+        "luts": 68,
+        "runtime": 0.004246299
+      },
+      {
+        "benchmark": "voter",
+        "edges": 12006,
+        "equivalent": false,
+        "lut_depth": 17,
+        "luts": 2375,
+        "runtime": 0.31805195
+      }
+    ],
+    "version": "##GITHUB##"
+  }
+]
